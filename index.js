@@ -3,8 +3,8 @@ const NaturalLanguageUnderstandingV1 = require('ibm-watson/natural-language-unde
 const { IamAuthenticator } = require('ibm-watson/auth');
 
 // Replace these values with your own API keys and configurations
-const NEWS_API_KEY = 'b58decaaab5e4f4ab517c8ca38e7109c';
-const WATSON_API_KEY = 'oia29JikCbsByaXZ6qBUZkh4jJsUWiaJYi1VEfRhGTiA';
+const NEWS_API_KEY = 'YOUR API KEY HERE';
+const WATSON_API_KEY = 'YOUR API KEY HERE';
 const WATSON_URL = 'https://api.us-east.natural-language-understanding.watson.cloud.ibm.com';
 
 const getArticles = async (source) => {
