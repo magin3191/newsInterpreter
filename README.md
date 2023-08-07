@@ -9,9 +9,10 @@ To Run:
 1. NPM Install.
 2. Navigate to directory.
 3. Run command: node cli.js newsInterpreter {arguments}.
-4. Flags:
-5. '-s' = 'source' Specify the news source.
-6. '-t = 'temperament' Specify the temperament (default:"joy).
-7. '-o' = 'sort' Sort the articles by temperament (a/d) (default: "d").
-8. '-h' = 'help' Display help for command
-9. Ex: node cli.js newsInterpreter -s Techcrunch -t fear - d
+  
+Flags:
+'-s'= 'source' Specify the news source.
+'-t = 'temperament' Specify the temperament (default:"joy").
+'-o'= 'sort' Sort the articles by temperament (a/d) (default: "d").
+'-h'= 'help' Display help for command.
+Ex: node cli.js newsInterpreter -s Techcrunch -t fear - d
